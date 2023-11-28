@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.bg{
+   background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523);
+   height:100vh;
+   width: 100vw;
+   background-size:500px 1000px;
+   background-repeat: no-repeat;
+   font-family: "roboto";
+   display: inline-block;
+   background-position: center;
+   
+}
+.hh
+{
+    
+    color: white;
+}
+
+.head{
+
+    text-align: center;
+    font-weight: bolder;
+    font-size:50px;
+    
+}
+.line-one
+{
+text-align: center;
+font-weight:500;
+font-size: 20px;
+color: white;
+
+
+}
+.line-two
+{
+    font-size:30px;
+    font-weight: bold;
+    color: white;
+    padding-left: 375px;
+}
+.p
+{
+    font-size: 20px;
+    color: white;
+    padding-left: 375px;
+    padding-right: 375px;;
+}
+.b{
+width: 90px;
+height: 50px;
+text-align: center;
+left:600px;
+font-size: 20px;
+position: absolute;
+bottom:150px;
+background-color:orange;
+color: white;
+
+/* padding: 15px 30px; */
+}
+.l{
+text-decoration: underline;
+position: absolute;
+text-align: center;
+bottom:75px;
+left:550px;
+color: white;
+}
+
