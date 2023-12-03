@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.bg
+{
+   background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523);
+   height:500px;
+   background-repeat: no-repeat;
+   color: white;
+   font-family: "roboto";
+   border: 10px solid ;
+   max-width:300px;
+   background-size:cover;
+   padding: 10px;
+}
