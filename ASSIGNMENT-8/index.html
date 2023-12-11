@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD ORDERING CARD</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>   
+        <div class="2xl:container font-[poppins] text-base">
+                <div class="w-[95%] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 space-y-3">
+                     <div class="flex flex-col justify-center items-center space-y-2 ">
+                     <img class="p-2"src="data:image/png;base64,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" />
+                     </div>
+                    <div class="flex flex-col justify-center items-center">
+                     <ul class="sm:flex flex-col justify-start items-start md:flex-row lg:flex-row space-x-2">
+                       <li>About us</li>
+                       <li>Why choose us?</li>
+                       <li>Explore menu</li>
+                       <li>Delivery & partner</li>
+                       <li>Contact us</li>
+                       
+                     </ul>
+                    </div>
+                </nav>               
+                <div class="2xl:container font-[poppins] text-base">
+                    <div class="w-[95%] mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 space-y-3">
+                    <div class=" flex flex-col justify-center items-center px-5 space-y-3">
+                        
+                        
+                        <img src="https://ik.imagekit.io/4z8covdo9/Full stack/food-serve.png?updatedAt=1702142726430">
+                        <p class="text-2xl  font-semibold " >Food Service</p>
+                        <p class="text-center">Experience fine dining at the comfort of your home.All our
+                            orders are carefully packed and arranged to give you the nothing less than perfect.
+                        </p>
+                        <button class="border-2 rounded-md  border-[#D0B200] py-3 px-5 text-[#D0B200]">Order Now</button>
+                    </div>
+                    <div class= "flex flex-col justify-center items-center px-5 space-y-3">
+                        
+                        
+                        <img src="https://ik.imagekit.io/4z8covdo9/Full stack/food-serve.png?updatedAt=1702142726430">
+                        <p class="text-2xl  font-semibold " >Food Service</p>
+                        <p class="text-center">Experience fine dining at the comfort of your home.All our
+                            orders are carefully packed and arranged to give you the nothing less than perfect.
+                        </p>
+                        <button class="border-2 rounded-md border-[#D0B200] py-3 px-5 text-[#D0B200]">Order Now</button>
+                    </div>
+                    <div class=" flex flex-col justify-center items-center px-5 space-y-3">
+                        
+                        
+                        <img src="https://ik.imagekit.io/4z8covdo9/Full stack/food-serve.png?updatedAt=1702142726430">
+                        <p class="text-2xl  font-semibold " >Food Service</p>
+                        <p class="text-center">Experience fine dining at the comfort of your home.All our
+                            orders are carefully packed and arranged to give you the nothing less than perfect.
+                        </p>
+                        <button class="border-2 rounded-md border-[#D0B200] py-3 px-5 text-[#D0B200]">Order Now</button>
+                    </div>
+                    <div class=" flex flex-col justify-center items-center px-5 space-y-3">
+                        
+                        
+                        <img src="https://ik.imagekit.io/4z8covdo9/Full stack/food-serve.png?updatedAt=1702142726430">
+                        <p class="text-2xl  font-semibold " >Food Service</p>
+                        <p class="text-center">Experience fine dining at the comfort of your home.All our
+                            orders are carefully packed and arranged to give you the nothing less than perfect.
+                        </p>
+                        <button class="border-2 rounded-md border-[#D0B200] py-3 px-5 text-[#D0B200]">Order Now</button>
+                    </div>
+                    
+                   
+                    
+                   
+                  
+                </div>
+            </div>
+           
+        </div>
+      
+    </body>
+</html>
